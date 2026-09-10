@@ -1,0 +1,959 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay_Ios_alinmapay.bundle/ic_amex.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Resources/ic_amex.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay_Ios_alinmapay.bundle/ic_amex.png"
+        }
+      ]
+    },
+    "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay_Ios_alinmapay.bundle/ic_mastercard.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Resources/ic_mastercard.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay_Ios_alinmapay.bundle/ic_mastercard.png"
+        }
+      ]
+    },
+    "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay_Ios_alinmapay.bundle/ic_rupay.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Resources/ic_rupay.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay_Ios_alinmapay.bundle/ic_rupay.png"
+        }
+      ]
+    },
+    "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay_Ios_alinmapay.bundle/ic_visa.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Resources/ic_visa.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay_Ios_alinmapay.bundle/ic_visa.png"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Ios_alinmapay-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode-26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/sources",
+      "importPath" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Configuration/SDKConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/ApplePaySubmitRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiateApplePay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiateApplePayRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitCVVPaymentReq.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SupportedPaymentMethod.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Navigation/SDKNavigator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/APIEndpoint.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/APIManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/ApplePayManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/LoaderManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/NetworkError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/SDKThemeManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/PaymentSDK.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/ApplePayRequestData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/PaymentDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/PaymentRequestData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/ApplePayBottomSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKButtonStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKInputStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKTextStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKTheme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/ApplePayUtility.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/DecrytptionUtil.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/HTMLUtility.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/Utility.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/CardPaymentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/Image.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/PaymentMethodDisp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/PaymentMethodView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKLabelField.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKMerchantBranding.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKTextField.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SavedCardCVVView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/ThreeDSWebViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/swift-version--112E4EF74740DA65.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<Ios_alinmapay-arm64-apple-macosx-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Ios_alinmapay",
+      "moduleOutputPath" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Modules/Ios_alinmapay.swiftmodule",
+      "objects" : [
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKConfiguration.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ApplePaySubmitRequest.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/InitiateApplePay.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/InitiateApplePayRequest.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/InitiatePaymentMapper.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/InitiatePaymentRequest.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/InitiatePaymentResponse.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentRequest.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentResponse.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentResult.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SubmitCVVPaymentReq.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SubmitPaymentMapper.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SubmitPaymentRequest.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SubmitPaymentResponse.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SupportedPaymentMethod.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKNavigator.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/APIEndpoint.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/APIManager.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ApplePayManager.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/LoaderManager.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/NetworkError.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKThemeManager.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentSDK.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ApplePayRequestData.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentDelegate.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentRequestData.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ApplePayBottomSheet.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKButtonStyle.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKInputStyle.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKTextStyle.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKTheme.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ApplePayUtility.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/DecrytptionUtil.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/HTMLUtility.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/Utility.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/CardPaymentView.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/Image.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentMethodDisp.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentMethodView.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKButton.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKLabelField.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKMerchantBranding.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKTextField.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SavedCardCVVView.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ThreeDSWebViewController.swift.o",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/include/Ios_alinmapay-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode-26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "paymentsdk"
+      ],
+      "outputFileMapPath" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ApplePaySubmitRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/InitiateApplePay.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/InitiateApplePayRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/InitiatePaymentMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/InitiatePaymentRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/InitiatePaymentResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SubmitCVVPaymentReq.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SubmitPaymentMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SubmitPaymentRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SubmitPaymentResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SupportedPaymentMethod.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKNavigator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/APIEndpoint.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/APIManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ApplePayManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/LoaderManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/NetworkError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKThemeManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentSDK.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ApplePayRequestData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentRequestData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ApplePayBottomSheet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKButtonStyle.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKInputStyle.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKTextStyle.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKTheme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ApplePayUtility.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/DecrytptionUtil.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/HTMLUtility.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/Utility.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/CardPaymentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/Image.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentMethodDisp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/PaymentMethodView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKLabelField.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKMerchantBranding.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SDKTextField.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/SavedCardCVVView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/ThreeDSWebViewController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Modules/Ios_alinmapay.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Configuration/SDKConfiguration.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/ApplePaySubmitRequest.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiateApplePay.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiateApplePayRequest.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentMapper.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentRequest.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentResponse.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentRequest.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentResponse.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentResult.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitCVVPaymentReq.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentMapper.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentRequest.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentResponse.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SupportedPaymentMethod.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Navigation/SDKNavigator.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/APIEndpoint.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/APIManager.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/ApplePayManager.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/LoaderManager.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/NetworkError.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/SDKThemeManager.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/PaymentSDK.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/ApplePayRequestData.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/PaymentDelegate.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/PaymentRequestData.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/ApplePayBottomSheet.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKButtonStyle.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKInputStyle.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKTextStyle.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKTheme.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/ApplePayUtility.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/DecrytptionUtil.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/HTMLUtility.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/Utility.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/CardPaymentView.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/Image.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/PaymentMethodDisp.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/PaymentMethodView.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKButton.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKLabelField.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKMerchantBranding.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKTextField.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SavedCardCVVView.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/ThreeDSWebViewController.swift",
+        "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Ios_alinmapay" : [
+      "/Applications/Xcode-26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Ios_alinmapay",
+      "-package-name",
+      "paymentsdk",
+      "-c",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Configuration/SDKConfiguration.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/ApplePaySubmitRequest.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiateApplePay.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiateApplePayRequest.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentMapper.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentRequest.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentResponse.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentRequest.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentResponse.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentResult.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitCVVPaymentReq.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentMapper.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentRequest.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentResponse.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SupportedPaymentMethod.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Navigation/SDKNavigator.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/APIEndpoint.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/APIManager.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/ApplePayManager.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/LoaderManager.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/NetworkError.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/SDKThemeManager.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/PaymentSDK.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/ApplePayRequestData.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/PaymentDelegate.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/PaymentRequestData.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/ApplePayBottomSheet.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKButtonStyle.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKInputStyle.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKTextStyle.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKTheme.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/ApplePayUtility.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/DecrytptionUtil.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/HTMLUtility.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/Utility.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/CardPaymentView.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/Image.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/PaymentMethodDisp.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/PaymentMethodView.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKButton.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKLabelField.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKMerchantBranding.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKTextField.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SavedCardCVVView.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/ThreeDSWebViewController.swift",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/include/Ios_alinmapay-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode-26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "paymentsdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode-26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Ios_alinmapay" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Configuration/SDKConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/ApplePaySubmitRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiateApplePay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiateApplePayRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/InitiatePaymentResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/PaymentResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitCVVPaymentReq.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SubmitPaymentResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Models/SupportedPaymentMethod.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Navigation/SDKNavigator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/APIEndpoint.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/APIManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/ApplePayManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/LoaderManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/NetworkError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Network/SDKThemeManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/PaymentSDK.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/ApplePayRequestData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/PaymentDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Protocol/PaymentRequestData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/ApplePayBottomSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKButtonStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKInputStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKTextStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Theme/SDKTheme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/ApplePayUtility.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/DecrytptionUtil.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/HTMLUtility.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Utilities/Utility.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/CardPaymentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/Image.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/PaymentMethodDisp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/PaymentMethodView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKLabelField.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKMerchantBranding.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SDKTextField.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/SavedCardCVVView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/Views/ThreeDSWebViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/sources"
+    },
+    "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/swift-version--112E4EF74740DA65.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode-26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/swift-version--112E4EF74740DA65.txt"
+    }
+  }
+}

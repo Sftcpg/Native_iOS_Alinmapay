@@ -1,0 +1,3 @@
+module Ios_alinmapay {
+    header "/Users/admin/Documents/iOS/InApp/SDK/new/PaymentSDK/.build/arm64-apple-macosx/debug/Ios_alinmapay.build/include/Ios_alinmapay-Swift.h"
+}
