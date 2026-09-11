@@ -8,7 +8,7 @@ let package = Package(
     name: "Ios_alinmapay",
 
     platforms: [
-        .iOS(.v15)
+        .iOS(.v16)
     ],
 
     products: [

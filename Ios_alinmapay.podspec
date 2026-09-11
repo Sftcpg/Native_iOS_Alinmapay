@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     'AlinmaPay' => 'alinmapaypg@gmail.com'
   }
 
-  s.platform     = :ios, '13.0'
+  s.platform     = :ios, '16.0'
 
   s.swift_version = '5.0'
 
